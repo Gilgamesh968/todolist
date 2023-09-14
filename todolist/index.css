@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #333333;
+    transition: all 0.5s ease-in-out;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#todoTitle{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+#todoTitle h1{
+    color: white;
+}
+
+#todoInputContainer  {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+#todoInputContainer .todoInput {
+    width: 500px;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: inset 0 -5px 10px black;
+}
+
+.todoBtn {
+    color: white;
+    width: 100px;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #222222;
+    box-shadow: 0 0 10px white;
+    cursor: pointer;
+}
+
+#todoListContainer {
+    text-align: center;
+}
+
+.todoList {
+    color: white;
+    font-size: 1.5rem;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #998686;
+    margin: 0px 200px;
+    padding: 10px 0;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.todoList input {
+    margin-left: 10rem;
+    width: 25px;
+    height: 25px;
+    transition: all 0.3s;
+}
+
+.todoList input:hover {
+    cursor: pointer;
+    box-shadow: inset 0 0 20px black;
+}
+
+.todoList button {
+    margin-left: 10px;
+    width: auto;
+    border: none;
+    font-size: 3rem;
+    transition: all 0.3s;
+    background-color: #998686;
+    color: white;
+}
+
+.todoList button:hover {
+    cursor: pointer;
+}
